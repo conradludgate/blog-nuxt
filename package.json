@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@vue/reactivity": "3.2.20",
+    "@vue/shared": "3.2.20",
+    "nuxt3": "^3.0.0-27247270.f04d6e3",
+    "postcss": "^8.1.0",
+    "unplugin": "^0.2.16",
+    "vue": "3.2.20"
+  },
+  "dependencies": {
+    "@mdx-js/vue": "^2.0.0-rc.1",
+    "nuxt-mdx": "conradludgate/nuxt-mdx"
+  }
+}
